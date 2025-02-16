@@ -10,4 +10,5 @@ function generateArt() {
 function clearArt() {
     // Issue: Does not clear input field properly
     document.getElementById("asciiOutput").innerText = "";
+    document.getElementById("textInput").value = "";
 }
